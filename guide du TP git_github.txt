@@ -1,0 +1,36 @@
+exercise sur git github
+
+1- Creation un dossier appelé learn_git :
+mkdir learn_git
+2- Changez de répertoire pour le dossier learn_git :
+cd learn_git
+3- Creation un fichier appelé tiers.txt :
+echo. > tiers.txt
+4- Initialisation un référentiel git vide :
+git init
+5- Ajout d'un tiers.txt à la zone de transit :
+git add tiers.txt
+6- Validation avec le message "ajout de tiers.txt" :
+git commit -m "ajout de tiers.txt"
+7- Vérification votre commit avec git log :
+git log
+8- Creation un autre fichier appelé Fourth.txt :
+echo. > Fourth.txt
+9- Ajout d'un Fourth.txt à la zone de transit :
+git add Fourth.txt
+10- Validation avec le message "ajout de quatrième.txt" :
+git commit -m "ajout de quatrième.txt"
+11- Suppression du tiers.txt :
+del tiers.txt
+12- Validation avec le message "supprimer tiers.txt" :
+git commit -m "supprimer tiers.txt"
+13- Vérification vos commits en utilisant git log :
+git log
+14- Modification des paramètres globaux en core.pager=cat :
+git config --global core.pager cat
+15- Liste des configurations globales de git sur notre machine :
+git config --global --list
+
+ 
+
+
